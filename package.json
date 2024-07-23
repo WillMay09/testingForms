@@ -1,0 +1,18 @@
+{
+  "name": "testingforms",
+  "version": "1.0.0",
+  "description": "This is a practice repository for grabbing data from the user using HTML forms and implementing best practice techniques to ensure the security of the application.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "express-async-handler": "^1.2.0",
+    "express-validator": "^7.1.0"
+  }
+}
