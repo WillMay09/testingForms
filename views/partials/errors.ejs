@@ -1,0 +1,10 @@
+<!-- views/partials/errors.ejs-->
+<!--res.locals.errors is equivalent to the below statement, accesses local values that the template engine has access to-->
+<% if(locals.errors) { %>
+<ul>
+    <% errors.forEach(function(error) { %>
+        <li><%= error.msg%></li>
+    <%});%>
+
+</ul>
+<% }%>

@@ -16,11 +16,15 @@ class UserStorage{
 
     }
 
-    getUsers(id){
+    getUsers(){
 
         return Object.values(this.storage);
     }
 
+    getUser(id){
+
+        return this.storage[id];
+    }
     updateUser(id, {firstName, lastName}) {
         this.storage[id] = { id, firstName, lastName };
       }
@@ -32,4 +36,4 @@ class UserStorage{
 
 }
 
-module.exports = UsersStorage();
+module.exports = new UserStorage();
